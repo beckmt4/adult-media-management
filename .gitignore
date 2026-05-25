@@ -1,0 +1,98 @@
+# Secrets & credentials
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*.pub
+
+# SSH keys - NEVER commit these
+.codex/
+.codex-ssh/
+~/.ssh/
+
+# API Keys and tokens (in case hardcoded anywhere)
+API_KEY*
+api_key*
+*_SECRET*
+*secret*
+credentials*
+
+# Temporary and test files
+manual-tmp/
+.test-tmp/
+test-tmp/
+*.tmp
+*.temp
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Node
+node_modules/
+package-lock.json
+npm-debug.log
+yarn-error.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.env.local
+
+# Logs
+*.log
+logs/
+*.log*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build artifacts
+dist/
+build/
+
+# Docker volumes (if mounted locally)
+volumes/
+data/
+
+# Ollama/model files (too large for git)
+*.gguf
+*.safetensors
+models/
+
+# Large files
+*.tar.gz
+*.zip
+*.7z
+
+# n8n execution data
+n8n/.n8n/
+
+# Sensitive config overrides
+config.local.*

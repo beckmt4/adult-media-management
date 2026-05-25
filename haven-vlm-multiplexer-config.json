@@ -1,0 +1,66 @@
+{
+    "models": {
+        "binary_search_processor_dynamic": {
+            "type": "binary_search_processor",
+            "model_file_name": "binary_search_processor_dynamic"
+        },
+        "vlm_multiplexer_model": {
+            "type": "vlm_model",
+            "model_file_name": "vlm_multiplexer_model",
+            "model_category": "actiondetection",
+            "model_id": "llava:7b",
+            "model_identifier": 93848,
+            "model_version": "1.0",
+            "use_multiplexer": true,
+            "max_concurrent_requests": 4,
+            "instance_count": 4,
+            "max_batch_size": 1,
+            "multiplexer_endpoints": [
+                {
+                    "base_url": "http://192.168.1.147:11434/v1",
+                    "api_key": "ollama",
+                    "name": "unraid-gtx1660ti",
+                    "weight": 9,
+                    "is_fallback": false,
+                    "max_concurrent": 1
+                },
+                {
+                    "base_url": "http://192.168.1.10:11434/v1",
+                    "api_key": "ollama",
+                    "name": "z4-media-01-p1000",
+                    "weight": 8,
+                    "is_fallback": false,
+                    "max_concurrent": 1
+                },
+                {
+                    "base_url": "http://192.168.1.139:11434/v1",
+                    "api_key": "ollama",
+                    "name": "z4-media-02-p1000",
+                    "weight": 8,
+                    "is_fallback": false,
+                    "max_concurrent": 1
+                },
+                {
+                    "base_url": "http://192.168.1.182:11434/v1",
+                    "api_key": "ollama",
+                    "name": "workstation-rtx4090",
+                    "weight": 10,
+                    "is_fallback": false,
+                    "max_concurrent": 1
+                }
+            ],
+            "tag_list": [
+                "Anal Fucking", "Ass Licking", "Ass Penetration", "Ball Licking/Sucking", "Blowjob", "Cum on Person",
+                "Cum Swapping", "Cumshot", "Deepthroat", "Double Penetration", "Fingering", "Fisting", "Footjob",
+                "Gangbang", "Gloryhole", "Grabbing Ass", "Grabbing Boobs", "Grabbing Hair/Head", "Handjob", "Kissing",
+                "Licking Penis", "Masturbation", "Pissing", "Pussy Licking (Clearly Visible)", "Pussy Licking",
+                "Pussy Rubbing", "Sucking Fingers", "Sucking Toy/Dildo", "Wet (Genitals)", "Titjob", "Tribbing/Scissoring",
+                "Undressing", "Vaginal Penetration", "Vaginal Fucking", "Vibrating"
+            ]
+        },
+        "result_coalescer": {
+            "type": "python",
+            "model_file_name": "result_coalescer"
+        }
+    }
+}

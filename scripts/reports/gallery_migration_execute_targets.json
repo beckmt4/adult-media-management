@@ -1,0 +1,261 @@
+{
+  "summary": {
+    "targets": 7,
+    "moves": 132,
+    "quarantined": 0,
+    "deleted": 2,
+    "manual_review": 7
+  },
+  "targets": [
+    {
+      "performer_id": "5234",
+      "performer_name": "Kiara Cole",
+      "canonical_dir": "\\\\192.168.1.147\\adult\\performer_gallery\\id\\5234",
+      "legacy_candidates": [
+        "\\\\192.168.1.147\\adult\\performer_gallery\\5234",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\K\\Kiara Cole",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\Kiara Cole"
+      ],
+      "moved": [],
+      "quarantined": [],
+      "deleted": [],
+      "issues": [
+        "by_name_symlink_permission_denied"
+      ]
+    },
+    {
+      "performer_id": "5091",
+      "performer_name": "Ember Snow",
+      "canonical_dir": "\\\\192.168.1.147\\adult\\performer_gallery\\id\\5091",
+      "legacy_candidates": [
+        "\\\\192.168.1.147\\adult\\performer_gallery\\5091",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\E\\Ember Snow",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\Ember Snow"
+      ],
+      "moved": [],
+      "quarantined": [],
+      "deleted": [],
+      "issues": [
+        "by_name_symlink_permission_denied"
+      ]
+    },
+    {
+      "performer_id": "6152",
+      "performer_name": "Lia Lin",
+      "canonical_dir": "\\\\192.168.1.147\\adult\\performer_gallery\\id\\6152",
+      "legacy_candidates": [
+        "\\\\192.168.1.147\\adult\\performer_gallery\\6152",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\L\\Lia Lin",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\Lia Lin"
+      ],
+      "moved": [],
+      "quarantined": [],
+      "deleted": [],
+      "issues": [
+        "by_name_symlink_permission_denied"
+      ]
+    },
+    {
+      "performer_id": "5444",
+      "performer_name": "Joanna Angel",
+      "canonical_dir": "\\\\192.168.1.147\\adult\\performer_gallery\\id\\5444",
+      "legacy_candidates": [
+        "\\\\192.168.1.147\\adult\\performer_gallery\\5444",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\J\\Joanna Angel",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\Joanna Angel"
+      ],
+      "moved": [],
+      "quarantined": [],
+      "deleted": [],
+      "issues": [
+        "by_name_symlink_permission_denied"
+      ]
+    },
+    {
+      "performer_id": "4955",
+      "performer_name": "Penny Pax",
+      "canonical_dir": "\\\\192.168.1.147\\adult\\performer_gallery\\id\\4955",
+      "legacy_candidates": [
+        "\\\\192.168.1.147\\adult\\performer_gallery\\4955",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\P\\Penny Pax",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\Penny Pax"
+      ],
+      "moved": [],
+      "quarantined": [],
+      "deleted": [],
+      "issues": [
+        "by_name_symlink_permission_denied"
+      ]
+    },
+    {
+      "performer_id": "4869",
+      "performer_name": "Marica Hase",
+      "canonical_dir": "\\\\192.168.1.147\\adult\\performer_gallery\\id\\4869",
+      "legacy_candidates": [
+        "\\\\192.168.1.147\\adult\\performer_gallery\\4869",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\Marica Hase"
+      ],
+      "moved": [
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\.hashes",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\.meta.json",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\headshot.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\photo_002.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\photo_003.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\photo_004.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\photo_005.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\photo_006.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\photo_007.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\photo_008.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\photo_009.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\photo_010.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\photo_011.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\photo_012.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\photo_013.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\photo_014.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\photo_015.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\photo_016.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\photo_017.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\photo_018.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\photo_019.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\photo_020.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\photo_021.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\photo_022.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\photo_023.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\photo_024.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\photo_025.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\photo_026.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\photo_027.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\photo_028.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\photo_029.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\photo_030.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\photo_031.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\photo_032.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\photo_033.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\photo_034.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\photo_035.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\photo_036.webp",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\photo_037.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\photo_038.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\photo_039.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\.faces\\photo_002_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\.faces\\photo_003_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\.faces\\photo_004_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\.faces\\photo_005_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\.faces\\photo_006_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\.faces\\photo_007_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\.faces\\photo_008_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\.faces\\photo_009_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\.faces\\photo_010_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\.faces\\photo_011_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\.faces\\photo_012_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\.faces\\photo_013_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\.faces\\photo_014_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\.faces\\photo_015_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\.faces\\photo_016_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\.faces\\photo_017_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\.faces\\photo_018_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\.faces\\photo_019_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\.faces\\photo_020_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\.faces\\photo_021_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\.faces\\photo_022_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\.faces\\photo_023_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\.faces\\photo_024_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\.faces\\photo_025_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\.faces\\photo_026_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\.faces\\photo_027_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\.faces\\photo_028_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\.faces\\photo_029_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\.faces\\photo_030_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\.faces\\photo_031_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\.faces\\photo_032_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\.faces\\photo_033_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\.faces\\photo_034_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\.faces\\photo_035_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\.faces\\photo_036_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\.faces\\photo_037_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\.faces\\photo_038_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\M\\Marica Hase\\.faces\\photo_039_face.jpg"
+      ],
+      "quarantined": [],
+      "deleted": [],
+      "issues": [
+        "by_name_symlink_permission_denied"
+      ]
+    },
+    {
+      "performer_id": "6377",
+      "performer_name": "Holly Hendrix",
+      "canonical_dir": "\\\\192.168.1.147\\adult\\performer_gallery\\id\\6377",
+      "legacy_candidates": [
+        "\\\\192.168.1.147\\adult\\performer_gallery\\6377",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\Holly Hendrix"
+      ],
+      "moved": [
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\.hashes",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\.meta.json",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\headshot.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\photo_002.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\photo_003.webp",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\photo_004.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\photo_005.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\photo_006.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\photo_007.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\photo_008.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\photo_009.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\photo_010.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\photo_011.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\photo_012.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\photo_013.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\photo_014.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\photo_015.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\photo_016.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\photo_017.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\photo_018.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\photo_019.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\photo_020.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\photo_021.png",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\photo_022.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\photo_023.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\photo_024.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\photo_025.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\photo_026.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\photo_027.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\.faces\\headshot_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\.faces\\photo_002_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\.faces\\photo_003_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\.faces\\photo_004_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\.faces\\photo_005_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\.faces\\photo_006_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\.faces\\photo_007_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\.faces\\photo_008_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\.faces\\photo_009_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\.faces\\photo_010_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\.faces\\photo_011_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\.faces\\photo_012_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\.faces\\photo_013_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\.faces\\photo_014_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\.faces\\photo_015_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\.faces\\photo_016_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\.faces\\photo_017_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\.faces\\photo_018_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\.faces\\photo_019_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\.faces\\photo_020_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\.faces\\photo_024_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\.faces\\photo_025_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\.faces\\photo_026_face.jpg",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\.faces\\photo_027_face.jpg"
+      ],
+      "quarantined": [],
+      "deleted": [
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix\\.faces",
+        "\\\\192.168.1.147\\adult\\performer_gallery\\H\\Holly Hendrix"
+      ],
+      "issues": [
+        "by_name_symlink_permission_denied"
+      ]
+    }
+  ],
+  "issues": []
+}

@@ -1,0 +1,152 @@
+{
+  "name": "Scene Lifecycle Automation",
+  "nodes": [
+    {
+      "parameters": {
+        "path": "scene-lifecycle",
+        "responseMode": "onReceived",
+        "options": {}
+      },
+      "id": "webhook-node",
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        250,
+        200
+      ],
+      "webhookId": "default",
+      "disabled": false
+    },
+    {
+      "parameters": {
+        "unit": "minutes",
+        "amount": 2
+      },
+      "id": "wait-node",
+      "name": "Wait",
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1,
+      "position": [
+        450,
+        200
+      ],
+      "disabled": false
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://192.168.1.147:9999/login",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Content-Type",
+              "value": "application/x-www-form-urlencoded"
+            }
+          ]
+        },
+        "sendBody": true,
+        "bodyParametersUi": "keyvaluepairs",
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "username",
+              "value": "root"
+            },
+            {
+              "name": "password",
+              "value": "qlx9_adM"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "stash-login",
+      "name": "Stash Login",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [
+        650,
+        200
+      ],
+      "disabled": false
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://192.168.1.147:9999/graphql",
+        "authentication": "none",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "name": "Cookie",
+              "value": "={{ $('Stash Login').first().json.headers['set-cookie'] }}"
+            }
+          ]
+        },
+        "sendBody": true,
+        "bodyParametersUi": "raw",
+        "rawBody": "{\n  \"query\": \"query GetSceneDetails($id: ID!) { findScene(id: $id) { id title path performers { id name } studios { id name } stash_ids rating duration } }\",\n  \"variables\": {\n    \"id\": \"{{ $json.id }}\"\n  }\n}",
+        "options": {}
+      },
+      "id": "http-request-graphql",
+      "name": "Get Scene Details",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [
+        850,
+        200
+      ],
+      "disabled": false
+    }
+  ],
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Wait",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Wait": {
+      "main": [
+        [
+          {
+            "node": "Stash Login",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Stash Login": {
+      "main": [
+        [
+          {
+            "node": "Get Scene Details",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "latest",
+  "meta": {
+    "instanceId": "default"
+  }
+}

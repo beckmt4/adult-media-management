@@ -1,0 +1,102 @@
+{
+  "name": "Scene Lifecycle Automation",
+  "nodes": [
+    {
+      "parameters": {
+        "path": "faa4a782-fdbd-48c3-8cc9-b1eeeaf7614f",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        -144,
+        -144
+      ],
+      "id": "1aadc5ee-2fc1-4a3c-8416-21e29369c698",
+      "name": "Webhook",
+      "webhookId": "faa4a782-fdbd-48c3-8cc9-b1eeeaf7614f"
+    },
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "scene-lifecycle",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        -144,
+        80
+      ],
+      "id": "f751ee7d-de70-47ff-bb7f-68810bac846a",
+      "name": "Webhook1",
+      "webhookId": "9381b637-b2ff-4313-8821-3aea9e45ad32"
+    },
+    {
+      "parameters": {
+        "amount": 2,
+        "unit": "minutes"
+      },
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [
+        80,
+        80
+      ],
+      "id": "e10c191d-16d0-42c1-b8a9-9d747f82feef",
+      "name": "Wait",
+      "webhookId": "4631f343-79ac-4838-9c70-aa215da94459"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://192.168.1.147:9999/graphql",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [
+        304,
+        80
+      ],
+      "id": "807e59fd-b8fe-42d7-900a-03bc0f28da8e",
+      "name": "HTTP Request"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Webhook1": {
+      "main": [
+        [
+          {
+            "node": "Wait",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Wait": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "693e2d38-8d4b-479a-a882-24e892aa9aa5",
+  "meta": {
+    "instanceId": "c7db257d2af96e406471f681d271e281747e041a17f7de87203e7cb79459503a"
+  },
+  "id": "oYYQuZXygAejZWac",
+  "tags": []
+}

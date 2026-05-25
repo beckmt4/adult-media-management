@@ -1,0 +1,20 @@
+# Controlled performer image batch list
+# One target per line.
+# Supported formats:
+#   - performer name
+#   - id:<stash performer id>
+#
+# Batch 2026-05-14: top performers by scene count with image_count=0 and StashDB IDs.
+# StashDB is currently the only fully-working image source (per STATE.md 2026-05-13).
+#
+# id:4869 = Marica Hase     (83 scenes, proven baseline)
+# id:5234 = Kiara Cole      (142 scenes)
+# id:5091 = Ember Snow      (134 scenes)
+# id:6152 = Lia Lin         (134 scenes)
+# id:5444 = Joanna Angel    (131 scenes)
+
+id:4869
+id:5234
+id:5091
+id:6152
+id:5444
